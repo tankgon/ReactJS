@@ -27,8 +27,5 @@ qwer
 qwe
 raqwer
 qwer
-<<<<<<< HEAD
 12312312312312
-=======
 123456
->>>>>>> 8bdc010be3b63e8ef7c7beb2bdbb8d4e793a564e
