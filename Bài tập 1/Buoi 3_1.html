@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(255, 255, 255); color: rgb(6, 97, 6)">
+    <h1 style=" text-align: center;">
+        Đăng ký du lịch
+    </h1>
+    <form style="margin: 50px 300px 0px 300px;" method="post">
+        <table border="1" style=" width: 80%; margin: auto; background-color: rgb(167, 224, 82);">
+            <tr>
+              <td>Họ Và Tên</td>
+              <td><input style="width: 90%;" type="text" placeholder="Nhập họ tên" name="name"></td>
+            </tr>
+            <tr>
+                <td>Địa Chỉ</td>
+                <td><input style="width: 80%;" type="text" placeholder="Nhập địa chỉ" name="name"></td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td><input style="width: 70%;" type="number"  name="name"></td>
+            </tr>
+            <tr>
+                <td>Khách việt nam</td>
+                <td><input type="checkbox" placeholder="Nhập địa chỉ" name="name"></td>
+            </tr>
+            <tr>
+                <td>Chọn tour</td>
+                <td>
+                    <select style="width: 60%;" class="select_danhsach" name="action">
+                        <option value="edit">Vũng tàu</option>
+                        <option value="delete">Sài Gòn</option>
+                        <option value="delete">Đà Nẵng</option>
+                    </select>
+                </td> 
+            </tr>
+            <tr>
+                <td>Phương Tiện</td>
+                <td>
+                    <input type="radio" placeholder="Nhập địa chỉ" name="name"> Máy bay
+                    <input type="radio" placeholder="Nhập địa chỉ" name="name"> Ô tô
+                </td>
+            </tr>
+            
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <form style="width: 30%;">
+                    <fieldset>
+                    <legend style="margin-left: -100px;">Chọn số người tham gia</legend>
+                    Người lớn:
+                    <input type="number" name="firstname" value="number" style="width: 5%;">
+                    Trẻ em:
+                    <input type="number" name="lastname" value="Number" style="width: 5%;">
+                </td>          
+            </tr>
+
+            <tr>
+                <td>Ghi chú thêm</td>
+                <td>
+                    <textarea style="width: 50%" placeholder="Nhập ghi chú"></textarea>
+                </td>              
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <button type="button" onclick="myFunction()">Đăng Nhập</button>             
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                        <p style="color: brown;" id="test"></p>              
+                </td>
+            </tr>
+          </table>
+    </form>
+</body>
+    <script>
+        function myFunction() {
+            document.getElementById("test").innerHTML = "Bạn đã đăng ký thành công";
+        }
+    </script>
+</html>
