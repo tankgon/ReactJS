@@ -14,4 +14,4 @@ function ham_goi(n){
     if( check == 1 ) console.log(n + " la so doi xung");
     else console.log(n + " khong phai la la so doi xung");
 }
-ham_goi(122121)
+ham_goi(1221211111111)
